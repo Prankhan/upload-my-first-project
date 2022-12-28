@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  height: 731px;
+  background: url(../img/hd-nature-landscape-wf9vl364rmqpj1dp.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.container::after {
+  content: "";
+  position: absolute;
+  background: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 731px;
+  top: 0;
+  z-index: -1;
+}
+.icon {
+  display: flex;
+}
+.logo {
+  font-size: 40px;
+
+  margin-top: 17px;
+  margin-left: 25px;
+  color: #fbcd08;
+}
+.menu {
+  width: 400px;
+  height: 70px;
+  float: left;
+  margin-left: 200px;
+}
+ul {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 67px;
+  margin-top: 27px;
+  font-size: 24px;
+  font-family: roboto;
+  border-radius: 5px;
+}
+ul li a {
+  text-decoration: none;
+  color: darkorange;
+  font-family: roboto;
+  transform: 0.9s ease all;
+}
+ul li a:hover {
+  color: orange;
+}
+.search {
+  width: 200px;
+  margin-top: 23px;
+  margin-left: 38px;
+}
+.srch {
+  font-family: candara;
+  background: transparent;
+  width: 135px;
+  height: 30px;
+  border: 2px solid darkorange;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+}
+.src {
+  font-size: 20px;
+  background: #fbcd08;
+  width: 61px;
+  border: 2px solid #fbcd08;
+  margin-left: -5px;
+  height: 32px;
+  border-radius: 2px;
+  color: #ffff;
+}
+
+.story {
+  width: 50%;
+  margin-left: 156px;
+  margin-top: 100px;
+}
+.title {
+  font-size: 50px;
+  padding-left: 20px;
+  color: #fbcd08;
+  text-transform: capitalize;
+  font-family: roboto;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+span {
+  color: darkorange;
+}
+.sub-title {
+  font-size: 16px;
+  color: white;
+  font-family: candara;
+  text-align: justify;
+  text-transform: capitalize;
+  margin: 24px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.join {
+  font-size: 25px;
+  font-family: candara;
+  background: #dbcd08;
+  margin: 22px;
+  padding: 6px 18px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.join:hover {
+  background: black;
+  transition: 0.5s ease all;
+  color: darkorange;
+}
+.content {
+  display: flex;
+}
+.sign {
+	width: 326px;
+	height: 456px;
+	background: black;
+	margin: 100px;
+	border-radius: 5px;
+}
+.sign .title {
+  font-size: 23px;
+  margin-left: 63px;
+  margin-bottom: 20px;
+  font-family: candara;
+  border: 2px solid white;
+  width: 174px;
+  height: 35px;
+  border-radius: 4px;
+}
+.pass {
+  height: 30px;
+  width: 179px;
+  margin-left: 65px;
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+}
+.email {
+  height: 30px;
+  width: 179px;
+  margin-left: 65px;
+  margin-bottom: 22px;
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+}
+.sign .sub-title {
+  font-size: 20px;
+  color: white;
+  font-family: candara;
+  margin-left: 60px;
+  margin-top: 11px;
+  font-weight: 400;
+}
+.up {
+  color: white;
+}
+.up:hover {
+  color: #fbcd08;
+  transition: 0.8s ease all;
+}
+.login {
+  padding: 7px 16px;
+  font-size: 28px;
+  margin-left: 64px;
+  margin-top: 18px;
+  text-transform: capitalize;
+  background: darkorange;
+  border-radius: 6px;
+  width: 185px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+.login a {
+  color: white;
+}
+.login:hover {
+  background: #fbcd08;
+}
+.login a {
+  color: white;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+  font-family: candara;
+  text-transform: capitalize;
+  margin-left: 60px;
+  margin-top: -3px;
+}
+
+
+.sign p a {
+  color: #ffff;
+  line-height: 37px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+
+.icon a {
+  color: white;
+}
+.icon ion-icon {
+  color: darkorange;
+  font-size: 30px;
+  padding-left: 28px;
+  padding-top: 10px;
+}
+.icon ion-icon:hover {
+  color: #ffff;
+}
